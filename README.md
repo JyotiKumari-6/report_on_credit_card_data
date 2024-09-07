@@ -54,5 +54,5 @@ ALTER TABLE credit_card DROP COLUMN Week_Start_Date;<br><br>
 -- Rename the new column to the original column name<br>
 ALTER TABLE credit_card CHANGE new_Week_Start_Date Week_Start_Date DATE;<br><br>
 
--> After this I imported these two customer and credit_card tables in the Power BI to make reports on this data. 
+-> After this I imported these two customer and credit_card tables in the Power BI to make reports on there data. 
 
